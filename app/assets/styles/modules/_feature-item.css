@@ -17,6 +17,10 @@
 
 		@mixin atSmall {
 			position: absolute;
+			left: 16px;
+		}
+		@mixin atLarge {
+			position: absolute;
 			left: 0;
 		}
 	}
