@@ -1029,7 +1029,7 @@ a {
 				font-weight: 300;
 				text-decoration: none;
 				display: block;
-				padding: 5px 8px;
+				padding: 11px 8px;
 				font-size: 0.8rem;
 				background-color: rgba(47,85,114, 0.5);
 			}
@@ -1121,8 +1121,8 @@ a {
 			left: 0;
 			width: 20px;
 			height: 3px;
-			background-color: #FFF;
-			-webkit-transform-origin: 0 0;
+			background-color: #2f5572;;
+			-webkit-transform-origin: 0 0;;
 			        transform-origin: 0 0;
 			transition: -webkit-transform 0.3s ease-out;
 			transition: transform 0.3s ease-out;
@@ -1135,8 +1135,8 @@ a {
 			left: 0;
 			width: 20px;
 			height: 3px;
-			background-color: #FFF;
-			transition: all 0.3s ease-out;
+			background-color: #2f5572;
+			transition: all 0.4s ease-out;
 			-webkit-transform-origin: 0 50%;
 			        transform-origin: 0 50%;
 		}
@@ -1148,7 +1148,7 @@ a {
 			left: 0;
 			width: 20px;
 			height: 3px;
-			background-color: #FFF;
+			background-color: #2f5572;
 			-webkit-transform-origin: 0 100%;
 			        transform-origin: 0 100%;
 			transition: -webkit-transform 0.3s ease-out;
@@ -1228,6 +1228,19 @@ a {
 			margin-bottom: 0;
 			margin-right: 1.4rem
 	}
+	}
+
+.reveal-item {
+	opacity: 0;
+	transition: all 1.5s ease-out;
+	-webkit-transform: scale(1.1);
+	        transform: scale(1.1);
+}
+
+.reveal-item--is-visible {
+		opacity: 1;
+		-webkit-transform: scale(1);
+		        transform: scale(1);
 	}
 
 
