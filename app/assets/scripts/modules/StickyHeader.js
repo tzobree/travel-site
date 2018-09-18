@@ -57,7 +57,16 @@ class StickyHeader {
 				},
 				offset: "-40%"
 			});
+			new Waypoint({
+				element: document.querySelector(".large-hero"),
+				handler: function() {
+					that.headerLinks.removeClass("is-current-link");
+				},
+				offset: "-20%"
+			});
+
 		});
+		
 	}
 }
 
