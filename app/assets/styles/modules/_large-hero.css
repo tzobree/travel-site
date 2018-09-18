@@ -4,6 +4,7 @@
 
 	&__image {
 		display: block;
+		min-width: 400px;
 	}
 
 	&__text-content {
