@@ -366,7 +366,7 @@ a {
 
 .large-hero__image {
 		display: block;
-		min-width: 400px;
+		min-height: 400px;
 	}
 
 .large-hero__text-content {
