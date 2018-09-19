@@ -5,6 +5,7 @@
 
 	@mixin atSmall {
 		font-size: 3.75rem;
+
 	}
 
 	strong {
@@ -30,10 +31,27 @@
 			position: relative;
 			top: 8px;
 			right: 20px;
+			transform: scale(1);
 			margin-bottom: 0;
 			margin-right: .5rem;
 			margin-left: 0;
 			display: inline-block;
 		}
+
+		&.icon--comment {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 1rem;
+			top: 12px;
+			right: 24px;
+
+			@mixin atMedium {
+				display: inline-block;
+				margin-bottom: 0;
+			}
+		}
 	}
+
+	
 }
